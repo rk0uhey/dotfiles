@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-app_list=(
+APP_LIST=(
 	"Dock"
 	"Finder"
 )
@@ -27,6 +27,6 @@ defaults write com.apple.dock minimize-to-application -bool false
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # 再起動
-for app in "${app_list[@]}"; do
+for app in "${APP_LIST[@]}"; do
 	killall "${app}" &> /dev/null
 done
