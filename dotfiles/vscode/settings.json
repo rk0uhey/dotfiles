@@ -1,0 +1,91 @@
+{
+	// vscode 基本設定
+	"editor.accessibilitySupport": "off",
+	"editor.codeActionsOnSave": {
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
+	},
+	"editor.insertSpaces": false,
+	"editor.minimap.showSlider": "always",
+	"editor.renderLineHighlight": "all",
+	"editor.renderWhitespace": "all",
+	"editor.wordWrap": "on",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.multiCursorLimit": 100000,
+	"editor.minimap.enabled": false,
+	"files.autoGuessEncoding": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.editor.wrapTabs": true,
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.startupEditor": "none",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.editor.enablePreview": false,
+	"workbench.colorCustomizations": {
+		"contrastActiveBorder": "#B0F010"
+	},
+	"window.zoomLevel": 1,
+	"terminal.integrated.env.osx": {
+		"FIG_NEW_SESSION": "1"
+	},
+	"terminal.integrated.shellIntegration.enabled": false,
+	"problems.showCurrentInStatus": true,
+
+	// 言語周辺設定
+	"javascript.referencesCodeLens.enabled": true,
+	"typescript.referencesCodeLens.enabled": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[xml]": {
+		"editor.defaultFormatter": "redhat.vscode-xml"
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+		"editor.formatOnSave": true
+	},
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"go.toolsManagement.autoUpdate": true,
+
+	// 拡張機能設定
+	"liveServer.settings.donotShowInfoMsg": true,
+	"redhat.telemetry.enabled": false,
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"github.copilot.editor.enableAutoCompletions": true,
+	"prisma.showPrismaDataPlatformNotification": false,
+	"vsicons.dontShowNewVersionMessage": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.activityBar.location": "top",
+	"chat.commandCenter.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"gitlens.views.scm.grouped.views": {
+		"commits": true,
+		"branches": true,
+		"remotes": true,
+		"stashes": true,
+		"tags": true,
+		"worktrees": true,
+		"contributors": true,
+		"repositories": true,
+		"searchAndCompare": false,
+		"launchpad": false
+	},
+	"github.copilot.nextEditSuggestions.enabled": false
+}
