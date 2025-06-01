@@ -1,4 +1,5 @@
 brew "git"
+brew "stow"
 brew "gettext"
 brew "mas"
 brew "ncurses"
