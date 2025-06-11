@@ -120,3 +120,21 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# -------------
+# User Setting
+# -------------
+
+# brewにパスを通す
+eval "$(/opt/homebrew/bin/brew shellenv)"
+# miseのactivate
+eval "$(mise activate zsh)"
+
+# alias
+## ls
+alias ll='ls -al'
+## git
+alias g='git'
+alias gs='git status'
+alias gps='git push'
+alias gpl='git pull'
