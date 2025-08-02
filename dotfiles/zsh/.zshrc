@@ -125,9 +125,10 @@ source $ZSH/oh-my-zsh.sh
 # User Setting
 # -------------
 
-# brewにパスを通す
+# PATH & ACTIVATE
+# brew PATH
 eval "$(/opt/homebrew/bin/brew shellenv)"
-# miseのactivate
+# mise ACTIVATE
 eval "$(mise activate zsh)"
 
 # alias
