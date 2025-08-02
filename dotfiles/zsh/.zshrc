@@ -142,3 +142,8 @@ alias gm='git merge'
 alias gl='git log'
 alias gps='git push'
 alias gpl='git pull'
+alias gd='git diff'
+alias gdno='git diff --name-only'
+## k8s
+alias k='kubectl'
+alias kr='k9s --readonly'
