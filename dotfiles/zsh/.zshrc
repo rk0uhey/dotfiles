@@ -144,9 +144,9 @@ bindkey '^B' backward-word
 bindkey '^F' forward-word
 
 # PATH & ACTIVATE
-# brew PATH
+## brew PATH
 eval "$(/opt/homebrew/bin/brew shellenv)"
-# mise ACTIVATE
+## mise ACTIVATE
 eval "$(mise activate zsh)"
 
 # alias
