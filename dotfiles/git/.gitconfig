@@ -3,3 +3,5 @@
 	email = rk0uhey@gmail.com
 [init]
 	defaultBranch = main
+[ghq]
+	root = /Users/rk0uhey/repos
