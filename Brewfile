@@ -7,6 +7,8 @@ brew "ncurses"
 brew "pcre2"
 brew "peco"
 brew "z"
+brew "gh"
+brew "ghq"
 
 cask "arc"
 cask "google-chrome"
