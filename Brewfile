@@ -7,6 +7,7 @@ brew "ncurses"
 brew "pcre2"
 brew "peco"
 brew "z"
+brew "fzf"
 brew "gh"
 brew "ghq"
 
